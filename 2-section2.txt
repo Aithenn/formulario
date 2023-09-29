@@ -1,0 +1,31 @@
+Comprensión de la metodología Cyber ​​Kill Chain
+
+Esta es la cadena de muerte cibernética
+Tenemos tareas de reconocimiento, armamento, lanzamiento, explotación, instalación, mando y control y acción en función de los objetivos
+
+Cuando esa cadena se rompe, ya no puedes seguir adelante
+Si puedes romper la cadena, entonces el ataque ya no ocurrirá.
+
+
+
+Comprensión de tácticas, técnicas y procedimientos (TTP)
+
+sí que, ya sabes, cada uno tiene su propio estilo, ¿verdad? La forma en que visten, la forma en que caminan, lo que hacen. Y si conoces a alguien lo suficientemente bien, has trabajado con ellos, has visto cómo escriben y cómo se expresan
+
+
+has establecido una serie de datos muy poderosos que te ayudan a identificar a esa persona o a identificar a otras personas por su forma de hacer las cosas. Es lo mismo que hacemos con los actores de amenazas. Tienen formas que se convierten en patrones de actividades, métodos con la forma en que hacen las cosas que la clave de la táctica es la forma en que llevan a cabo el ataque. De principio a fin
+
+
+ La T para las técnicas son los métodos técnicos, las herramientas que utilizan
+
+ los procedimientos son el enfoque organizativo que adopta el actor de la amenaza para lanzar el ataque
+
+ Si las juntas, es casi como obtener la huella digital del ataque. Aunque el atacante no diga: «Oigan, estoy con este grupo de atacantes», examinen a los TTP y sabrán quiénes son. Así que una de las cosas que queremos hacer es observar los comportamientos de nuestros sistemas o redes informáticas que indiquen la presencia de un adversario
+
+ alguien tiene el control de una cuenta o de nuestra estación de trabajo e intenta usarlo en tu contra. Estos son algunos comportamientos muy importantes que hay que buscar en una red para identificar a los adversarios
+
+
+ 
+Actividades de proxy no especificadas: Un adversario puede crear y configurar múltiples dominios que apunten al mismo host, lo que le permite cambiar rápidamente entre dominios para evitar la detección. Los profesionales de la seguridad pueden encontrar dominios no especificados comprobando las fuentes de datos que generan esos dominios.   
+
+puesta en escena de datos: Después de una penetración exitosa en la red de un objetivo, el adversario utiliza técnicas de preparación de datos para recopilar y combinar la mayor cantidad de datos posible. Los tipos de datos recopilados por un adversario incluyen datos confidenciales sobre los empleados y clientes, las tácticas comerciales de una organización, información financiera e información de infraestructura de red.    

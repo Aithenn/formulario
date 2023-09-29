@@ -1,0 +1,46 @@
+El pattern atributo especifica una expresión regular con la que <input>se compara el valor del elemento al enviar el formulario.
+
+ funciona con los siguientes tipos de entrada: texto, fecha, búsqueda, URL, teléfono, correo electrónico y contraseña
+
+ Consejo: utilice el atributo global title: para describir el patrón y ayudar al usuario.
+
+^ = abre 
+$ = cierra 
+
+evalue todo nuestro texto con la logica que hay dentro 
+
+?= = vamos aceptar caracteres 
+. =  que no sean saltos de linea o enter
+* = al menos una vez sobre el conjunto que hay 
+?! = NO vamos aceptar espacio en blanco, caracteres que esten
+.{6,12} = queremos que se cumplen de 6 a 12 veces
+
+^(?=.*[a-z])
+(?=.*[A-Z])
+(?=.*[0-9])
+(?!.*[ !@#$%^&*_=+-])
+.{6,12}$
+
+
+^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{8,12}$
+
+
+
+crear un directorio 
+browser-sync start -s -f . --directory
+
+
+en powersheld 
+Set-ExecutionPolicy Unrestricted 
+S 
+cuando lo cerremos vovera a bloquear 
+
+
+setCustomValidity(): define el mensaje de validación personalizado para el elemento seleccionado con el mensaje especifico
+
+
+HTMLSelectElement.checkValidity(): comprueba si el elemento tiene restricciones y si las cumple. 
+Si el elemento no cumple sus restricciones, el navegador lanza un evento cancelable invalid (en-US) al momento y luego devuelve false.
+
+
+https://www.w3schools.com/js/js_validation_api.asp

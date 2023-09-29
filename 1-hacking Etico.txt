@@ -1,0 +1,175 @@
+Bienvenido al módulo 1 de Ethical Hacking Essentials. Aquí, en el módulo 1, lo que vamos a ver son los fundamentos de la seguridad de la información. Lo que vamos a hacer con los fundamentos de la seguridad de la información es , primero, entender la necesidad de la seguridad de la información, analizar los elementos de la seguridad de la información y analizar la tríada de seguridad, funcionalidad y usabilidad. Vamos a analizar los motivos y objetivos de los ataques a la seguridad de la información. Vamos a analizar la clasificación de los ataques, qué ataques existen, etc. También vamos a analizar los vectores de ataque y, por último, algunas leyes que regulan la seguridad de la información.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+//fundamentos de la seguridad\\
+
+La seguridad de la información es "el estado de bienestar de la información y la infraestructura en el que la posibilidad de robo, manipulación o interrupción de la información y los servicios se mantiene baja o tolerable". La seguridad de la información se refiere a la protección o salvaguarda de la información y los sistemas de información que utilizan, almacenan y transmiten información contra el acceso no autorizado, la divulgación, la alteración y la destrucción. 
+
+
+Necesidad de seguridad:
+
+*Evolución de la tecnología, centrada en la facilidad de uso.
+
+*Depender del uso de computadoras para acceder, proporcionar o simplemente almacenar información.
+
+*Mayor entorno de red y aplicaciones basadas en red.
+*Impacto directo de la violación de seguridad en la base de activos corporativos y el fondo de comercio
+
+Complejidad creciente de la administración y gestión de la infraestructura informática    
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+//elementos de la seguridad de la información\\
+//confidencialidad\\
+cuando piense en confidencialidad piense en: cifrado
+  
+
+Queremos asegurarnos de que solo las personas autorizadas tengan acceso a la información y no a la integridad
+
+cuando piense en: integridad\\  piense:
+certificados digitales o incluso en los hashes
+
+/* hashes: Las funciones hash son estructuras de datos de uso común en los sistemas informáticos para tareas, como verificar la integridad de los mensajes y autenticar la información. */
+
+Lo que queremos hacer es asegurarnos de que la información no se modifique, independientemente del medio por el que pase y de quién la haya enviado o recibido.
+
+disponibilidad 
+Garantía de que la información sea accesible sólo para aquellos autorizados a tener acceso.    
+
+Autenticidad
+La autenticidad se refiere a la característica de la comunicación, los documentos o cualquier dato que asegure la calidad de ser genuino o incorrupto. La función principal de la autenticación es confirmar que un usuario es genuino. Controles como la biometría, las tarjetas inteligentes y los certificados digitales garantizan la autenticidad de los datos, las transacciones, las comunicaciones y los documentos.    
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+Comprender el triángulo de seguridad, funcionalidad y usabilidad
+
+El nivel de seguridad en cualquier sistema se puede definir por la fortaleza de tres componentes:
+
+Funcionalidad : El conjunto de características proporcionadas por el sistema.
+
+Usabilidad : Los componentes GUI utilizados para diseñar el sistema para facilitar su uso.
+
+Seguridad : Restricciones impuestas al acceso a los componentes del sistema.    
+
+
+Funcionalidad : El conjunto de características proporcionadas por el sistema. 
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+Comprensión de los motivos, metas y objetivos de los ataques a la seguridad de la información
+
+Motivos detrás de los ataques a la seguridad de la información
+Interrumpir la continuidad del negocio
+Realizar robo de información
+Manipulación de datos
+Crear miedo y caos al alterar infraestructuras críticas
+Llevar la pérdida financiera al objetivo.
+Propagar creencias religiosas o políticas.
+Lograr los objetivos militares de un estado.
+Dañar la reputación del objetivo.
+Tomar venganza
+Exigir rescate    
+
+Los atacantes generalmente tienen motivos (metas) y objetivos detrás de sus ataques a la seguridad de la información. Un motivo surge de la idea de que un sistema objetivo almacena o procesa algo valioso, lo que genera la amenaza de un ataque al sistema. El propósito del ataque puede ser interrumpir las operaciones comerciales de la organización objetivo, robar información valiosa por curiosidad o incluso vengarse.    
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+Descripción general de la clasificación de ataques
+
+ataque pasivo: solo están mirando a su alrededor, No están provocando que pase nada/ No están interactuando activamente
+
+Un ataque activo: se produce cuando manipulas, cambias cosas, interactúas o incluso puedes interrumpir las comunicaciones mediante un ataque // Estás interactuando con el objetivo de tu ataque
+
+un ataque cercano:  puede consistir en ingeniería social o espiar directamente dentro de la organización //  recopilar o modificar información o interrumpir su acceso
+
+ataques internos: Esto ocurre cuando alguien que trabaja para la empresa infringe las normas y causa intencionalmente daños o destrucción a la organización, como, por ejemplo, al robar un dispositivo físico. =>
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+Qué es un keylogger
+
+Lo que hace básicamente es registrar todo lo que escribimos, ya sea en un teclado físico como sería en un ordenador, como en uno táctil como sería en la pantalla del móvil.
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+=> ataques de distribución:  Manipulan el hardware o el software incluso antes de que lleguen al sitio
+
+
+ataques a la cadena de suministro:  en los que ocurre algo parecido con la distribución de software. Por ejemplo, tienes una consola Linux en Ubuntu y estás realizando una actualización, pero no te imaginas que alguien ha cambiado los parámetros de la actualización para que haya una actualización maliciosa procedente de una fuente oficial
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+Descripción general de los vectores de ataque a la seguridad de la información
+
+¿Cuáles son los vectores de ataque? Tenemos amenazas de computación en la nube //  Pero existe la posibilidad de que se filtren datos confidenciales
+
+alguien envio un correo a los usuario indicandoles que pagaran por otro medio y se les enviaba los medios pero la empresa nunca los envio 
+
+la emporesa tarde 208 dias para darse cuenta del ataque que tuvo
+
+Es una APT, tenemos gusanos y virus. Hay una gran diferencia entre un gusano y un virus. Ahora bien, ambos son códigos sofisticados que pueden infectar. Pero al igual que en biología, un virus necesita un vector.
+
+Los virus necesitan ser transportados en biología y tecnología.
+
+Los gusanos no necesitan transporte. Se transportarán solos. En el mundo de los ordenadores, es posible que un virus necesite tu aplicación de correo electrónico para poder enviarse
+
+Si no tienes una aplicación de correo electrónico, puede que ni siquiera funcione. Es posible que el virus no pueda hacer nada más, pero puede enviarse por sí mismo a través de su aplicación de correo electrónico. La aplicación de correo electrónico es el vector viral
+
+Sin embargo, un gusano, digamos que tengo un portátil, lo llevo a una red y el gusano dice: «Qué bien. Una «red» y un gusano sale de mi portátil y empieza a encontrar todo tipo de puertos abiertos y otros dispositivos conectados a la red y se propaga por sí solo. No es necesario utilizar un vector
+
+
+Secuestro de datos: ¿Has oído hablar alguna vez del ransomware?
+
+es una pantalla de bienvenida en tu ordenador y dice que todos tus archivos están bloqueados. Si quieres desbloquear tus archivos, envíanos cinco bitcoins antes de las 11:30 de la mañana o en 48 horas o lo que sea.
+
+Al bloquear todos los archivos de algunos actores de amenazas, no solo se bloquean todos los archivos de una gran organización, sino que se quedan con todos los datos que puedan conseguir, gigabytes de datos, y dirán
+
+ 
+amenazas móviles:  los teléfonos y los dispositivos móviles son un claro vector de ataque // Otros vectores, como las botnets, específicamente para el IoT y los teléfonos móviles, pueden convertirse en botnets, donde se convierten en la fuente del ataque y son controladas por un controlador
+
+Ataques internos: en los que alguien de confianza, que trabaja para la organización, un consultor o alguien con información privilegiada ataca la red. La suplantación de identidad, en la que un correo electrónico, un mensaje de texto o algún otro tipo de comunicación que parece legítima y atrae a la persona, es en realidad un ataque que trata de obtener información.
+
+Pod slurping es un ataque interno realizado por personas confiables que tienen acceso físico a los activos críticos del objetivo. Un ataque interno implica el uso de acceso privilegiado para violar reglas o causar intencionalmente una amenaza a la información o los sistemas de información de la organización.  
+
+
+Amenazas a aplicaciones web: en las que intentas acceder a un sitio web, descargarlo, descargar una aplicación web y utilizarla, pero te ataque y algo pasa eintentan redirigirte, robar información o hacer que hagas clic en un enlace, lo que se convertirá en una amenaza o IoT
+
+Hay dispositivos, dispositivos basados en el Internet de las cosas: que son comprometibles y que se convierten en una amenaza para la organización debido a las fallas y a estos dispositivos que permiten al atacante realizar ataques de forma remota basados en ese dispositivo.
+
+ataque APT: Advanced Persistent Threat (APT) es un ataque que se centra en robar información de la máquina víctima sin que el usuario se dé cuenta. Estos ataques generalmente están dirigidos a grandes empresas y redes gubernamentales. Los ataques APT son de naturaleza lenta, por lo que el efecto sobre el rendimiento del ordenador y las conexiones a Internet es insignificante.    
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+Descripción general de diversas leyes y regulaciones de seguridad de la información
+
+PCI DSS:  procesa y utiliza los datos de las tarjetas de crédito de los clientes
+
+ISO/IEC 27001: El artículo 27.001 contiene muchos subtemas, pero en concreto el 27, 001:2013, es decir, los requisitos para establecer, implementar, mantener y mejorar continuamente un sistema de gestión de la seguridad de la información
+
+
+HIPAA: es la ley de portabilidad y responsabilidad de los seguros de salud //Ese objetivo principal es proteger los datos de los pacientes
+
+Queremos que cada proveedor que opere electrónicamente utilice los mismos códigos de atención médica e identificadores de transacciones
+
+
+Fisma Fisma, una ley federal de gestión de la seguridad de la información
+asegurarnos de que tenemos buenos controles de seguridad sobre la información que respalden qué es federa
+
+
+RGPD, en realidad hablará de dos cosas. La primera es el derecho al olvido. Así que si voy a un sitio web, a un proveedor o a una organización y digo: oye, no quiero seguir siendo parte de esto, deshaciéndome de mi información, entonces ellos deberían poder borrar toda tu información de todos sus archivos. Y en lo que respecta a esa organización, ya no existes. Ese es el derecho al olvido
+
+ notificaciones de cookies. Sí, esas bonitas notificaciones de cookies que ves en Internet provienen del RGPD
+
+
+ DPA de 2018. Este es el reglamento de la ley de protección de datos para las personas que desempeñan alguna de las funciones del comisionado, incluida la regulación de los códigos de comercialización
+
+ En realidad, se trata de proteger a las personas en términos de datos personales: que se procesan legalmente, que se procesan de manera justa, que se protegen los derechos de las personas
+
+
+
+Sarbanes-Oxley: tiene como objetivo proteger al público y a los inversores aumentando la precisión y confiabilidad de las divulgaciones corporativas. Esta ley no explica cómo una organización debe almacenar registros, pero describe los registros que las organizaciones deben almacenar y la duración de su almacenamiento.    
+
+La DMCA define prohibiciones legales contra la elusión de las medidas de protección tecnológica empleadas por los propietarios de derechos de autor para proteger sus obras y contra la eliminación o alteración de la información de gestión de derechos de autor.    
